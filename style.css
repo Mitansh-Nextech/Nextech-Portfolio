@@ -1,0 +1,39 @@
+* {
+    background-color: rgb(12, 9, 9);
+    color: azure;
+    font-family: JetBrains Mono;
+}
+
+.navbar {
+    border: 2px solid azure;
+    border-radius: 10em;
+    text-align: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 55%;
+    margin-top: 25%;
+    margin-right: 95%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 35%;
+    z-index: 1000;
+}
+
+.navbar #iconDark {
+    display: none;
+}
+
+.navbar h2 {
+    display: none;
+}
+
+.navbar img {
+    padding: 50%;
+    padding-left: 10px;
+    height: 50%;
+    width: 50%;
+}
