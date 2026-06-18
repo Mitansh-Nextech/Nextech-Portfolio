@@ -2,17 +2,19 @@
     background-color: rgb(12, 9, 9);
     color: azure;
     font-family: JetBrains Mono;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
 }
 
 .navbar {
     border: 2px solid azure;
     border-radius: 10em;
     text-align: left;
+    font-size: 0.75em;
     padding-left: 1%;
     padding-right: 1%;
-    font-size: 55%;
     margin-top: 15%;
-    margin-right: 95%;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -20,27 +22,12 @@
     flex-direction: column;
     position: sticky;
     top: 35%;
-    z-index: 1000;
+    max-width: fit-content;
 }
 
-.navbar #iconDark {
-    display: none;
-}
-
-.navbar .navHomeH2 {
-    display: none;
-}
-
-.navbar .navAboutH2 {
-    display: none;
-}
-
-.navbar .navProjectsH2 {
-    display: none;
-}
-
-.navbar .navContactH2 {
-    display: none;
+.navbar h2 {
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 .navbar:hover {
@@ -48,34 +35,44 @@
     background-color: azure;
 }
 
-.navbar:hover #iconLight {
-    display: none;
-}
-
-.navbar:hover #iconDark {
-    border: 2px solid azure;
-    border-radius: 10em;
-    text-align: left;
-    padding: 50%;
-    padding-left: 20%;
-    display: flex;
-    height: 50%;
-    width: 50%;
-}
-
-.navbar img {
-    padding: 50%;
-    padding-left: 25%;
-    height: 50%;
-    width: 50%;
-}
-
-.navbar:hover img {
-    color: rgb(12, 9, 9);
-    background-color: azure;
-}
-
 .navbar:hover div {
     color: rgb(12, 9, 9);
     background-color: azure;
+}
+
+.navbar:hover h2 {
+    color: rgb(12, 9, 9);
+    background-color: azure;
+}
+
+.sign {
+    border: 1px solid azure;
+    text-align: center;
+    rotate: 15deg;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    position: absolute;
+    top: 22%;
+    width: 50%;
+}
+
+.signH1 {
+    font-family: corinthia;
+    font-size: 1000%;
+    animation: type-writer-effect 1.5s steps(30);
+    overflow: hidden;
+    margin: auto;
+    width: 6ch;
+}
+
+@keyframes type-writer-effect {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
 }
