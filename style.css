@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     border: 2px solid azure;
     border-radius: 10em;
@@ -23,6 +27,7 @@
     position: sticky;
     top: 35%;
     max-width: fit-content;
+    z-index: 10;
 }
 
 .navbar h2 {
@@ -56,15 +61,17 @@
     position: absolute;
     top: 22%;
     width: 50%;
+    transition: scale 2s;
 }
 
 .signH1 {
     font-family: corinthia;
-    font-size: 1000%;
+    font-size: 4.5em;
     animation: type-writer-effect 1.5s steps(30);
     overflow: hidden;
     margin: auto;
     width: 6ch;
+
 }
 
 @keyframes type-writer-effect {
@@ -75,4 +82,50 @@
     to {
         width: 100%;
     }
+}
+
+.sign:hover {
+    scale: 0.8;
+}
+
+.aboutMeTittle {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-right: 9%;
+    margin-left: 9%;
+}
+
+.aboutMeTittle h2 {
+    padding-top: 1%;
+    margin-right: auto;
+}
+
+.aboutMeTittle a {
+    padding-top: 1%;
+    text-decoration: underline;
+    margin-right: auto;
+}
+
+#who {
+    transition: scale 2s;
+    background-color: rgb(12, 9, 9, 0);
+}
+
+#who:hover {
+    scale: 1.08;
+    background-color: rgb(12, 9, 9, 0);
+}
+
+hr {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.who {
+    display: inline-flex;
+}
+
+#who {
+    padding-left: 1ch;
 }
