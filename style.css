@@ -67,7 +67,7 @@ html {
 .signH1 {
     font-family: corinthia;
     font-size: 4.5em;
-    animation: type-writer-effect 1.5s steps(30);
+    animation: type-writer-effect 4s steps(36);
     overflow: hidden;
     margin: auto;
     width: 6ch;
@@ -113,7 +113,7 @@ html {
 }
 
 #who:hover {
-    scale: 1.08;
+    scale: 1.05;
     background-color: rgb(12, 9, 9, 0);
 }
 
