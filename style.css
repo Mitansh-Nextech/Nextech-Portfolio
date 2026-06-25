@@ -16,6 +16,7 @@
     top: 30vh;
     background-color: transparent;
     backdrop-filter: blur(10px);
+    transition: background-color 0.4s ease-in-out;
 
 }
 
@@ -25,7 +26,7 @@
     border-color: rgb(172, 172, 172);
 }
 
-.navbar .navH1 {
+.navH1 {
     display: flex;
     justify-content: space-around;
     padding-top: 1vh;
@@ -33,8 +34,8 @@
     padding-left: 1vh;
     padding-right: 1vh;
     font-size: 1em;
-    background-color: transparent;
     backdrop-filter: blur(1px);
+    transition: background-color 0.4s ease-in-out;
 }
 
 .navDiv {
@@ -51,32 +52,32 @@
 }
 
 #navHomeH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
 #navAboutH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
 #navProjectsH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
 #navSkillsH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
 #navCaseStudyH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
 #navConnectH1:hover {
-    color: rgba(69, 162, 255, 1);
+    color: rgb(39, 130, 221);
     font-weight: 1000;
 }
 
@@ -174,7 +175,7 @@
 }
 
 .heroProjects:hover {
-    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 17%, rgba(12, 9, 9, 1) 100%);
+    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 0%, rgba(12, 9, 9, 1) 64%);
     border-color: black;
     scale: 1.15;
 }
@@ -185,7 +186,7 @@
 }
 
 .heroConnect:hover {
-    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 17%, rgba(12, 9, 9, 1) 100%);
+    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 0%, rgba(12, 9, 9, 1) 64%);
     border-color: black;
     scale: 1.15;
 }
