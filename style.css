@@ -6,16 +6,23 @@
 }
 
 .navbar {
-    width: fit-content;
-    margin-top: 35vh;
+    width: min-content;
+    text-align: center;
     border: 1px solid azure;
     border-radius: 2em;
     padding: 1%;
     z-index: 10;
     position: fixed;
+    top: 30vh;
     background-color: transparent;
     backdrop-filter: blur(10px);
 
+}
+
+.navbar hr {
+    width: 5vh;
+    height: 1%;
+    border-color: rgb(172, 172, 172);
 }
 
 .navbar .navH1 {
@@ -26,17 +33,51 @@
     padding-left: 1vh;
     padding-right: 1vh;
     font-size: 1em;
-    backdrop-filter: blur(10px);
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+}
+
+.navDiv {
+    background-color: transparent;
 }
 
 .navbar:hover {
     background-color: azure;
-    color: rgb(12, 9, 9)
 }
 
 .navbar:hover .navH1 {
     background-color: azure;
     color: rgb(12, 9, 9);
+}
+
+#navHomeH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
+}
+
+#navAboutH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
+}
+
+#navProjectsH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
+}
+
+#navSkillsH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
+}
+
+#navCaseStudyH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
+}
+
+#navConnectH1:hover {
+    color: rgba(69, 162, 255, 1);
+    font-weight: 1000;
 }
 
 .rocketImg {
@@ -67,5 +108,141 @@
 .hero {
     z-index: 1;
     text-align: left;
-    top: 0;
+    margin-top: 45vh;
+    width: max-content;
+    margin-left: 20vh;
+    padding-bottom: 5%;
+}
+
+.heroH1 {
+    font-size: 5em;
+}
+
+.iAmCylceDiv {
+    display: flex;
+    color: rgb(172, 172, 172);
+    justify-content: space-between;
+    width: 65vh;
+}
+
+#iAmCycle {
+    text-decoration: underline;
+}
+
+.heroH3 {
+    color: rgb(172, 172, 172);
+}
+
+.heroButtons {
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 40vh;
+}
+
+.heroProjects {
+    border: 1px solid azure;
+    border-radius: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1vh;
+    transition: scale 0.2s ease-in-out;
+}
+
+.heroViewProjects {
+    height: fit-content;
+    transition: scale 0.2s ease-in-out;
+}
+
+.heroConnect {
+    border: 1px solid azure;
+    border-radius: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1vh;
+    width: 10vh;
+    text-align: center;
+    transition: scale 0.2s ease-in-out;
+}
+
+.heroConnectH2 {
+    transition: scale 0.2s ease-in-out;
+}
+
+.heroProjects:hover {
+    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 17%, rgba(12, 9, 9, 1) 100%);
+    border-color: black;
+    scale: 1.15;
+}
+
+.heroProjects:hover .heroViewProjects {
+    background: transparent;
+    scale: 1.15;
+}
+
+.heroConnect:hover {
+    background: linear-gradient(156deg, rgba(69, 162, 255, 1) 17%, rgba(12, 9, 9, 1) 100%);
+    border-color: black;
+    scale: 1.15;
+}
+
+.heroConnect:hover .heroConnectH2 {
+    background: transparent;
+    scale: 1.15;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.aboutMeHomeText {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.navAboutTitle {
+    font-size: 2vh;
+    color: rgb(39, 130, 221);
+    font-style: oblique;
+    font-weight: 1000;
+    margin-right: 50vh;
+    margin-left: 80vh;
+    text-align: left;
+}
+
+.aboutMeHomeTitle {
+    margin-left: 80vh;
+    text-align: left;
+}
+
+.aboutMeHomeContent {
+    text-align: left;
+    margin-right: 5vh;
+    width: fit-content;
+    margin-left: 80vh;
+}
+
+.aboutMeHomeExtra {
+    margin-left: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+}
+
+.aboutMeHomeExtra div {
+    border: 1px solid azure;
+    border-radius: 2vh;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vh;
 }
