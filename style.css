@@ -16,6 +16,8 @@
     top: 30vh;
     background-color: transparent;
     backdrop-filter: blur(7px);
+    padding-top: 2%;
+    padding-bottom: 2%;
 
 }
 
@@ -291,7 +293,7 @@ html {
     scale: 1.5;
     padding-top: 8vh;
     animation: slide 1s linear;
-    animation-timeline: view();
+    animation-timeline: view(10%);
     animation-range: entry;
     margin: auto;
     background-color: transparent;
@@ -308,12 +310,28 @@ html {
     }
 }
 
+.navProjectsTitle {
+    font-size: 2vh;
+    color: rgb(39, 130, 221);
+    font-style: oblique;
+    font-weight: 1000;
+    margin-right: 20vh;
+    text-align: right;
+    padding-right: 2%;
+}
+
+.projectsHomeTitle {
+    text-align: right;
+    padding-right: 2%;
+}
+
 .projectsHome {
-    padding-top: 2%;
+    padding-top: 10vh;
+    margin-bottom: 10vh;
     display: flex;
     justify-content: space-around;
     margin-left: 10vh;
-    margin-right: 10vh;
+    margin-right: 5vh;
 }
 
 .projectsHome a {
@@ -328,4 +346,57 @@ html {
 .projectsHome img {
     width: 100%;
     height: 50%;
+}
+
+.dblClickProjects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.skillsHome {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.skillsHome div {
+    width: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.pythonSkill {
+    background-color: azure;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 80vh;
+}
+
+.cssSkill {
+    background-color: azure;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 80vh;
+}
+
+.javaScriptSkill {
+    background-color: azure;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 80vh;
+}
+
+.cadSkill {
+    background-color: azure;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-top: 80vh;
 }
