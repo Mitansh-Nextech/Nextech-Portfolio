@@ -1,0 +1,89 @@
+* {
+    background-color: rgb(12, 9, 9);
+    color: azure;
+    font-family: Nunito;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+.studiesStart {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.caseStudyTitle {
+    font-size: 5em;
+    width: fit-content;
+    margin-right: 1em;
+    margin-left: 0.25em;
+    text-decoration: italic;
+    border: 1px solid azure;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    height: fit-content;
+    border-radius: 0.25em;
+    margin-top: 0.25em;
+}
+
+.caseStudy1 .title {
+    font-size: 0.9em;
+    color: rgb(39, 130, 221);
+}
+
+.caseStudy2 .title {
+    font-size: 0.9em;
+    color: rgb(39, 130, 221);
+}
+
+.caseStudy1 h3 {
+    font-size: 0.9em;
+}
+
+.caseStudy1 p {
+    font-size: 1.25em;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.homeP2Img {
+    font-size: 7vh;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.study1 {
+    display: flex;
+    justify-content: space-around;
+    width: 98%;
+    font-size: 1em;
+    text-align: left;
+
+}
+
+.homeP1Img {
+    width: 40%;
+    height: 50%;
+    border-radius: 0.5em;
+    z-index: 2;
+    position: relative;
+    top: -50vh;
+}
+
+.study {
+    height: fit-content;
+}
+
+.homeP2Img {
+    width: 40%;
+    height: 50%;
+    border-radius: 0.5em;
+    z-index: 2;
+}
+
+.caseStudy2 {
+    display: flex;
+    justify-content: space-evenly;
+}

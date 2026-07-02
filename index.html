@@ -4,21 +4,19 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mitansh N</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleaspis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
     <div class="navbar">
-        <div class="navHome navDiv">
+        <div class="navHome navDiv" id="navHomeH1">
             <a href="#" id="navHomeH1" class="navH1">
                 Home
             </a>
@@ -30,24 +28,27 @@
             </a>
         </div>
         <hr>
-        <div class="navProjects navDiv">
+        <div class="navProjects navDiv" id="navProjectsH1">
             <a href="#projectsHome" id="navProjectsH1" class="navH1">
                 Projects
             </a>
         </div>
         <hr>
         <div class="navSkills navDiv">
-            <a href="#" id="navSkillsH1" class="navH1">
+            <a href="#skillsHome" id="navSkillsH1" class="navH1">
                 Skills
             </a>
         </div>
         <hr>
         <div class="navConnet navDiv">
-            <a href="#" id="navConnectH1" class="navH1">
+            <a href="#connectHome" id="navConnectH1" class="navH1">
                 Connect
             </a>
         </div>
     </div>
+
+
+
     <div class="hero">
         <h1 class="heroH1">
             Mitansh Ngn
@@ -56,6 +57,9 @@
             <h2 class="heroH2">
                 I am a <h2 id="iAmCycle" class="heroH2"> Aspiring Aerospace Engineering Student</h2>
             </h2>
+            <button class="heroH2Button" id="iAmCycleButton">
+                🗘
+            </button>
         </div>
         <h3 class="heroH3">
             A student who is passionate about engineering, flights and building the future.
@@ -66,7 +70,7 @@
                     View Projects
                 </h2>
             </a>
-            <a href="#" class="heroConnect">
+            <a href="#connectHome" class="heroConnect">
                 <h2 class="heroConnectH2">
                     Connect
                 </h2>
@@ -76,6 +80,11 @@
             <img src="assets/spaceShuttle.png" alt="Space Shuttle Clipart" class="rocketImg">
         </div>
     </div>
+
+
+
+
+
     <br id="aboutMeHome">
     <hr>
     <div class="aboutMeHome">
@@ -84,9 +93,13 @@
         </div>
         <div class="aboutMeTextExtra">
             <div class="aboutMeHomeText">
-                <h2 class="navAboutTitle">
-                    /01 About Me
-                </h2>
+
+                <div class="aboutMePic">
+                    <h2 class="navAboutTitle">
+                        /01 About Me
+                    </h2>
+                    <img class="headshot" src="assets\headshot.png" alt="A picture of Mitansh" class="aboutPic">
+                </div>
                 <h1 class="aboutMeHomeTitle">
                     Who Am I?
                 </h1>
@@ -123,91 +136,176 @@
                     </h1>
                     <hr>
                     <h1 class="aboutMeHomeH2">
-                        Build a script to log flight data
+                        To go to Purdue West Lafayette
                     </h1>
                 </div>
             </div>
         </div>
     </div>
     <hr>
+
+
+
+
     <h2 class="navProjectsTitle">
         /02 Projects
     </h2>
     <h1 class="projectsHomeTitle">
-        Projects Highlight
+        Projects Highlights
     </h1>
     <div class="projectsHome" id="projectsHome">
-        <a href="#" class="homeProject1">
-            <img src="assets/CYOA.png" alt="image of adventure website" class="homeP1Img">
+        <a href="https://mitansh-nextech.github.io/Unit3-Project/" class="homeProject1" target="_blank"
+            id="homeProjects">
+            <img src="assets/CYOA.png" alt="image of adventure website" class="homeP1Img" target="_blank">
             <h1 class="homeP1TextTitle">
                 Choose Your Own Adventure
             </h1>
             <hr>
             <h2 class="homeP1Text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis maiores provident quo ipsum! Cum
-                recusandae et soluta sequi minus, tenetur suscipit maiores temporibus commodi dolorum facilis repellat,
-                aliquid quasi!
+                This project is a website in which the user can choose their own adventure. This project is built using
+                HTML, CSS and JavaScript. The user can choose their own adventure by clicking on the buttons and the
+                story will change based on their choices.
             </h2>
         </a>
-        <a href="#" class="homeProject2">
-            <img src="assets/Change.png" alt="image of the xhange website" class="homeP2Img">
+        <a href="https://mitansh-nextech.github.io/Unit2-Project1/" class="homeProject2" id="homeProjects"
+            target="_blank">
+            <img src="assets/Change.png" alt="image of the change website" class="homeP2Img">
             <h1 class="homeP2TextTitle">
                 Websites for Change
             </h1>
             <hr>
             <h2 class="homeP2Text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis maiores provident quo ipsum! Cum
-                recusandae et soluta sequi minus, tenetur suscipit maiores temporibus commodi dolorum facilis repellat,
-                aliquid quasi!
+                This project is a website that I built to help people learn about the importance of change. This projec
+                mainly focuses on residential decarbonization and how to make a change in your home to help the
+                environment form global warming.
             </h2>
         </a>
-        <a href="#" class="homeProject3">
-            <img src="assets/ADS-B.png" alt="image of my python script" class="homeP3Img">
+        <a href="https://github.com/Mitansh05/AirWatch" class="homeProject3" target="_blank">
+            <img src="assets/ADS-B.png" alt="image of my python script" class="homeP3Img" id="homeProjects"
+                trget="_blank">
             <h1 class="homeP3TextTitle">
                 ADS-B script
             </h1>
             <hr>
             <h2 class="homeP3Text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt officiis maiores provident quo ipsum! Cum
-                recusandae et soluta sequi minus, tenetur suscipit maiores temporibus commodi dolorum facilis repellat,
-                aliquid quasi!
+                This project is built by using Python and the ADS-B data to log flight data and display it in a user
+                friendly way. This project uses the API url/key form openSky. This project is still in development and
+                will be updated soon.
             </h2>
         </a>
     </div>
     <div class="dblClickProjects">
-        <h1 class="dblProjects">
-            Double Click Projects To View Case Studies
-        </h1>
+        <p class="dblProjects" id="dblClickProjects">
+            Double Click 'Projects' To View Case Studies
+        </p>
     </div>
     <hr>
+
+
+
+
+    <h2 class="navSkillsTitle" id="skillsHome">
+        /03 Skills
+    </h2>
+    <h1 class="skillsHomeTitle">
+        Skills Showcase
+    </h1>
     <div class="skillsHome">
         <div class="python">
-            <div class="pythonSkill"></div>
+            <div class="pythonSkill">Proficient</div>
             <h1>
                 Python
 
             </h1>
         </div>
         <div class="html">
-            <div class="cssSkill"></div>
+            <div class="htmlSkill">Mastery</div>
+            <h1>
+                HTML
+
+            </h1>
+        </div>
+        <div class="css">
+            <div class="cssSkill">Developing</div>
             <h1>
                 CSS
 
             </h1>
         </div>
-        <div class="python">
-            <div class="javaScriptSkill"></div>
+        <div class="javaScript">
+            <div class="javaScriptSkill">Basic</div>
             <h1>
                 JavaScript
 
             </h1>
         </div>
-        <div class="python">
-            <div class="cadSkill"></div>
+        <div class="cad">
+            <div class="cadSkill">Mastery</div>
             <h1>
                 CAD
 
             </h1>
+        </div>
+    </div>
+    <br id="connectHome">
+    <hr>
+
+
+
+    <div class="connectHome">
+        <h2 class="navConnectTitle">
+            /04 Connect
+        </h2>
+        <h1 class="connectHomeTitle">
+            connect With Me!
+        </h1>
+        <div class="connectPic">
+            <img class="headshot" src="assets\headshot.png" alt="A picture of Mitansh" class="connectPic">
+            <div class="connectHomeContent">
+                <h2 class="connectHomeContent">
+                    <div class="linkedIn">
+                        <a href="https://www.linkedin.com/in/mitansh-n/" target="_blank">
+                            <img id="linkedInLogo" class="connectImgs" src="assets\linkedinlogo.webp"
+                                alt="LinkedIn Image">
+                        </a>
+                    </div>
+                    <div class="gmail" target="_blank">
+                        <a href="gmailConnect.html" target="_blank">
+                            <img id="gmailLogo" class="connectImgs" src="assets\gmailLogo.webp" alt="Email Image">
+                        </a>
+                    </div>
+                    <div class="github">
+                        <a href="http://github.com/Mitansh05" target="_blank">
+                            <img id="githubLogo" class="connectImgs" src="assets\githubLogo.png" alt="GitHub Image">
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <hr class="footerHR">
+    <div class="footer">
+        <h1 class="footerH1">
+            Mitansh Ngn
+        </h1>
+        <h2 class="footerH2">
+            © 2026 All rights reserved.
+        </h2>
+        <div class="sources">
+            <h1 class="sourcesH1">
+                Some of the sources I used to learn and build this website are:
+            </h1>
+            <li class="sourcesLi">
+                <a href="https://www.w3schools.com" target="_blank" class="w3schools">| W3Schools |</a>
+                <a href="https://fonts.google.com/" target="_blank" class="google">| Google Fonts |</a>
+                <a href="https://developer.mozilla.org" target="_blank" class="MDN">| MDN Web Docs |</a>
+                <a href="https://formsubmit.co" target="_blank" class="formsubmit">| FormSubmit |</a>
+                <a href="https://stackoverflow.com" target="_blank" class="stackOverflow">| Stack Overflow |</a>
+                <a href="https://istock.com" target="_blank" class="iStock">| iStock |</a>
+            </li>
         </div>
     </div>
 </body>
