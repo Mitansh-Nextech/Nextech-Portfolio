@@ -650,3 +650,27 @@ form {
 .footerHR {
     margin-top: 20vh;
 }
+
+.homeProject1 {
+    transition: all 0.3s ease-in-out;
+}
+
+.homeProject1:hover {
+    scale: 1.1;
+}
+
+.homeProject2 {
+    transition: all 0.3s ease-in-out;
+}
+
+.homeProject2:hover {
+    scale: 1.1;
+}
+
+.homeProject3 {
+    transition: all 0.3s ease-in-out;
+}
+
+.homeProject3:hover {
+    scale: 1.1;
+}
